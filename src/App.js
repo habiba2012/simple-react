@@ -2,7 +2,7 @@ import './App.css';
 import React, {useState, useEffect} from 'react';
 import './App.css'
 import fakeData from './fakeData/data.json'
-import Team from './component/Team/Team';
+import Player from './component/Player/Player';
 import Cart from './component/Cart/Cart';
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
     <h3 >Total player: {players.length}</h3>
 
      <div className="container-team">
-     {fakeData.map(player => <Team player={player} addPlayerHandler={addPlayerHandler} key={player.id}></Team> )}
+     {fakeData.map(player => <Player player={player} addPlayerHandler={addPlayerHandler} key={player.id}></Player> )}
      </div>
      <div className="container-cart">
      <Cart cart={cart}/> 

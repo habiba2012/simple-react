@@ -3,9 +3,9 @@ import {Button, Card} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserPlus } from '@fortawesome/free-solid-svg-icons'
-import './Team.css'
+import './Player.css'
 
-const Team = (props) => {
+const Player = (props) => {
     const {name, img, salary} = props.player;
     const addPlayerHandler = props.addPlayerHandler;
     return (
