@@ -15,7 +15,7 @@ const Cart = (props) => {
             <h5 className="text-left">We have selected <span style={spanStyle}>{cart.length}</span> players. </h5>
             <h5 className="text-left text-info">Selected Player Name:{cart.name}</h5>
             {
-            cart.map(player => <li className="list-group-item text-left">{player.name}</li>)
+            cart.map(player => <li className="list-group-item text-left">{player.name}  ------ Salary ${player.salary}</li>)
             }
             <p style={textStyle} className="text-left">Total Expense ${totalExpenses}</p>
 
