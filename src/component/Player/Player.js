@@ -22,4 +22,4 @@ const Player = (props) => {
     );
 };
 
-export default Team;
+export default Player;

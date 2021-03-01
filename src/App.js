@@ -1,4 +1,3 @@
-import './App.css';
 import React, {useState, useEffect} from 'react';
 import './App.css'
 import fakeData from './fakeData/data.json'
@@ -19,7 +18,7 @@ function App() {
   }
   return (
     <div className="App">
-      <h2>BPL Cricket tournament Selection</h2>
+      <h2>BPL Team Selection</h2>
     <h3 >Total player: {players.length}</h3>
 
      <div className="container-team">
